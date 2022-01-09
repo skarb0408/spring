@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<settings>
+		<!-- setting : mybatis 실행시 필요한 값을 제공하기 위한 엘리먼트 -->
+		<!-- => 실행에 필요한 값를 기본값으로 제공하므로 기본값을 아닌 값을 사용할 경우 setting 엘리먼트 사용 -->
+		<setting name="callSettersOnNulls" value="true"/>
+		<setting name="jdbcTypeForNull" value="NULL"/>
+		<setting name="mapUnderscoreToCamelCase" value="true"/>
+	</settings>
+</configuration>
